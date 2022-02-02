@@ -1,7 +1,10 @@
 {
-  "name": "mongoose-fuzzy-searching",
-  "version": "2.0.2",
-  "author": "Vassilis Pallas <vspallas@gmail.com>",
+  "name": "mongoose-fuzzy-searching-v3",
+  "version": "2.1.0",
+  "contributors": [
+    "mtso <~@mtso.io>",
+    "Vassilis Pallas <vspallas@gmail.com>"
+  ],
   "description": "Mongoose fuzzy searching plugin",
   "main": "index.js",
   "scripts": {
@@ -36,12 +39,12 @@
     "mongodb"
   ],
   "bugs": {
-    "url": "https://github.com/VassilisPallas/mongoose-fuzzy-searching/issues"
+    "url": "https://github.com/mtso/mongoose-fuzzy-searching-v3"
   },
-  "homepage": "https://github.com/VassilisPallas/mongoose-fuzzy-searching",
+  "homepage": "https://github.com/mtso/mongoose-fuzzy-searching-v3",
   "license": "MIT",
   "peerDependencies": {
-    "mongoose": "5.10.x"
+    "mongoose": "6.1.x"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
@@ -54,7 +57,7 @@
     "jest": "^26.0.1",
     "lint-staged": "^10.2.2",
     "mongodb-memory-server": "^6.6.0",
-    "mongoose": "^5.10.11",
+    "mongoose": "^6.1.10",
     "prettier": "^2.0.5"
   }
 }
