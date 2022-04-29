@@ -76,6 +76,7 @@ const makeNGrams = (constants, replaceSymbols) => (
   }
 
   const result = text
+    .toString()
     .split(' ')
     .map((q) =>
       nGrams(constants)(
